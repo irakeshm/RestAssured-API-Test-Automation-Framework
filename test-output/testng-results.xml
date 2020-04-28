@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="3" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Suite GeoLocation API Test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test GeoLocation API Test Cases]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ApiTestCase.setUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ApiTestCase.setUp]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ApiTestCase.verifyApiResponse]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ApiTestCase.verifyApiResponse]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.geolocation.api.testcases.ApiTestCase]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : null1600 Amphitheatre Parkway Mountain View CA,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ApiTestCase.tearDown]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ApiTestCase.tearDown]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ApiTestCase.setUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ApiTestCase.setUp]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ApiTestCase.verifyApiResponse]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ApiTestCase.verifyApiResponse]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.geolocation.api.testcases.ApiTestCase]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullSan Jose Costa Mesa Orange County California 92626 USA,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ApiTestCase.tearDown]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ApiTestCase.tearDown]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ApiTestCase.setUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ApiTestCase.setUp]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ApiTestCase.verifyApiResponse]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ApiTestCase.verifyApiResponse]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.geolocation.api.testcases.ApiTestCase]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : null488 S Almaden Ave San Jose CA 95110 USA,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ApiTestCase.tearDown]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ApiTestCase.tearDown]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test GeoLocation API Test Cases]]>
+    </line>
+    <line>
+      <![CDATA[About to end executing Suite GeoLocation API Test]]>
+    </line>
+  </reporter-output>
+  <suite name="GeoLocation API Test" duration-ms="3623" started-at="2019-08-06T20:58:14Z" finished-at="2019-08-06T20:58:17Z">
+    <groups>
+    </groups>
+    <test name="GeoLocation API Test Cases" duration-ms="3623" started-at="2019-08-06T20:58:14Z" finished-at="2019-08-06T20:58:17Z">
+      <class name="com.geolocation.api.testcases.ApiTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.geolocation.api.testcases.ApiTestCase@2d3fcdbd]" name="setUp" is-config="true" duration-ms="8" started-at="2019-08-07T02:28:14Z" finished-at="2019-08-07T02:28:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ApiTestCase.setUp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyApiResponse(java.lang.String)[pri:0, instance:com.geolocation.api.testcases.ApiTestCase@2d3fcdbd]" name="verifyApiResponse" duration-ms="2986" started-at="2019-08-07T02:28:14Z" data-provider="getInputTestData" finished-at="2019-08-07T02:28:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1600 Amphitheatre Parkway Mountain View CA]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.geolocation.api.testcases.ApiTestCase.verifyApiResponse(ApiTestCase.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ApiTestCase.verifyApiResponse]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.geolocation.api.testcases.ApiTestCase]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : null1600 Amphitheatre Parkway Mountain View CA,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : ApiTestCase.tearDown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyApiResponse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.geolocation.api.testcases.ApiTestCase@2d3fcdbd]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-08-07T02:28:17Z" finished-at="2019-08-07T02:28:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ApiTestCase.tearDown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.geolocation.api.testcases.ApiTestCase@2d3fcdbd]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-07T02:28:17Z" finished-at="2019-08-07T02:28:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ApiTestCase.setUp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyApiResponse(java.lang.String)[pri:0, instance:com.geolocation.api.testcases.ApiTestCase@2d3fcdbd]" name="verifyApiResponse" duration-ms="309" started-at="2019-08-07T02:28:17Z" data-provider="getInputTestData" finished-at="2019-08-07T02:28:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[San Jose Costa Mesa Orange County California 92626 USA]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.geolocation.api.testcases.ApiTestCase.verifyApiResponse(ApiTestCase.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ApiTestCase.verifyApiResponse]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.geolocation.api.testcases.ApiTestCase]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullSan Jose Costa Mesa Orange County California 92626 USA,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : ApiTestCase.tearDown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyApiResponse -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.geolocation.api.testcases.ApiTestCase@2d3fcdbd]" name="setUp" is-config="true" duration-ms="1" started-at="2019-08-07T02:28:17Z" finished-at="2019-08-07T02:28:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ApiTestCase.setUp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.geolocation.api.testcases.ApiTestCase@2d3fcdbd]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-07T02:28:17Z" finished-at="2019-08-07T02:28:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ApiTestCase.tearDown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="verifyApiResponse(java.lang.String)[pri:0, instance:com.geolocation.api.testcases.ApiTestCase@2d3fcdbd]" name="verifyApiResponse" duration-ms="276" started-at="2019-08-07T02:28:17Z" data-provider="getInputTestData" finished-at="2019-08-07T02:28:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[488 S Almaden Ave San Jose CA 95110 USA]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.geolocation.api.testcases.ApiTestCase.verifyApiResponse(ApiTestCase.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ApiTestCase.verifyApiResponse]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.geolocation.api.testcases.ApiTestCase]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : null488 S Almaden Ave San Jose CA 95110 USA,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : ApiTestCase.tearDown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyApiResponse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.geolocation.api.testcases.ApiTestCase@2d3fcdbd]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-08-07T02:28:17Z" finished-at="2019-08-07T02:28:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ApiTestCase.tearDown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.geolocation.api.testcases.ApiTestCase -->
+    </test> <!-- GeoLocation API Test Cases -->
+  </suite> <!-- GeoLocation API Test -->
+</testng-results>

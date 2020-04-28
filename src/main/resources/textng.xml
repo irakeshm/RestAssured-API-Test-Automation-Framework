@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GeoLocation API Test" >
+
+	<listeners>
+		<listener class-name="com.geolocation.api.reportListener.TestngReportListener" />
+	</listeners>
+	
+	<test name="GeoLocation API Test Cases">
+		<classes>
+			<class name="com.geolocation.api.testcases.ApiTestCase"></class>
+		</classes>
+	</test>
+</suite>

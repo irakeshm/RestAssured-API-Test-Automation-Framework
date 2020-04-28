@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GeoLocation API Test]">
+  <listeners>
+    <listener class-name="com.geolocation.api.reportListener.TestngReportListener"/>
+  </listeners>
+  <test name="GeoLocation API Test Cases(failed)">
+    <classes>
+      <class name="com.geolocation.api.testcases.ApiTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyApiResponse" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.geolocation.api.testcases.ApiTestCase -->
+    </classes>
+  </test> <!-- GeoLocation API Test Cases(failed) -->
+</suite> <!-- Failed suite [GeoLocation API Test] -->
